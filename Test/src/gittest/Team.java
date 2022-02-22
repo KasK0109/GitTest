@@ -4,18 +4,18 @@ import java.util.ArrayList;
 
 public class Team
 {
-    private String navn;
+    private String teamnavn;
 
     public Team(String navn)
     {
-        this.navn = navn;
+        this.teamnavn = navn;
     }
 
     @Override
     public String toString()
     {
         return "Team{" +
-                "navn='" + navn + '\'' +
+                "navn='" + teamnavn + '\'' +
                 '}';
     }
 
