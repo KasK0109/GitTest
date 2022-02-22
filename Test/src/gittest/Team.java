@@ -21,7 +21,7 @@ public class Team
 
     //--------------------------------------------------------------
     /* aggregering -> 0..* Student*/
-    private final ArrayList<Person> persons = new ArrayList<>();
+    //private final ArrayList<Person> persons = new ArrayList<>();
 
     private void addPerson(Person person)
     {
