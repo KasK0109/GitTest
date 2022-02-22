@@ -19,11 +19,23 @@ public class Team
                 '}';
     }
 
+    //--------------------------------------------------------------
     /* aggregering -> 0..* Student*/
     //private final ArrayList<Person> persons = new ArrayList<>();
 
     private void addPerson(Person person)
     {
         persons.add(person);
+    }
+
+    //--------------------------------------------------------------
+    public double averageAge()
+    {
+        double totalAge = 0;
+        for (Person p : persons)
+        {
+            totalAge += p.getAge();
+        }
+        return totalAge / persons.size();
     }
 }
