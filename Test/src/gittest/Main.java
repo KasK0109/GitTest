@@ -11,5 +11,7 @@ public class Main {
         System.out.println("Navn: " + p2.getName() + " Alder: " + p2.getAge());
 
         System.out.println("Hello World!");
+
+        //commit1 fra jesper
     }
 }
