@@ -20,5 +20,10 @@ public class Main {
 
         //-------------------------------------------------Jeppe-------------------------------------------------------
 
+
+        Klub klub = new Klub("AGF");
+        klub.addMedlem(p1);
+        klub.addMedlem(p2);
+        System.out.println(klub.getMedlemmer());
     }
 }
