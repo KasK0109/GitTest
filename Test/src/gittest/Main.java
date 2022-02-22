@@ -9,5 +9,16 @@ public class Main {
 
         System.out.println("Navn: " + p1.getName() + " Alder: " + p1.getAge());
         System.out.println("Navn: " + p2.getName() + " Alder: " + p2.getAge());
+
+        System.out.println("Hello World!");
+
+        //commit1 fra jesper
+
+        //-------------------------------------------------Jeppe-------------------------------------------------------
+
+        System.out.println("Awesome ';'");
+
+        //-------------------------------------------------Jeppe-------------------------------------------------------
+
     }
 }
